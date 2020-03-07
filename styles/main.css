@@ -203,3 +203,74 @@ body {
   transform: translateX(-50%);
   width: 380px;
 }
+
+.hamburger{
+  display: none;
+}
+
+/* responsive */
+
+@media all and (max-width: 720px){
+/* Nav section */
+  .menu-nav{
+    display: none;
+  }
+
+  .hamburger{
+    display: inline-block;
+    float: right;
+  }
+
+/* Main section */
+  #jumbotron h1{
+    font-size: 25px;
+  }
+
+  #jumbotron img{
+    width: 150px;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+/* Products section */
+  #products{
+    margin: 0;
+  }
+  #products .float{
+    float: none;
+    width: 100%;
+  }
+
+  #products .box{
+    margin: 20px auto;
+  }
+
+  /* Sezione How */
+
+  .how-works-bg{
+    height: 300px;
+    background-position: left;
+ }
+ #how-works .img-phone {
+   bottom: 140px;
+ }
+ #how-works .col-sx,
+ #how-works .col-dx{
+   float: none;
+   width: 100%;
+   text-align:center;
+ }
+
+#how-works h4{
+  font-size: 18px;
+}
+
+#how-works .text{
+  font-size: 20px;
+}
+
+
+
+
+
+}
